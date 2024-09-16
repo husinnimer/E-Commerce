@@ -1,0 +1,19 @@
+.myH2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0dcaf096;
+  animation-name: title;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.linkCat {
+  color: white;
+}
+
+@keyframes title {
+  50% {
+    transform: translateX(50px);
+  }
+}

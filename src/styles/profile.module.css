@@ -1,0 +1,10 @@
+.ulProfile {
+  color: gray;
+  list-style: circle;
+}
+
+.ulProfile li {
+  margin: 20px;
+  text-align: center;
+  color: rgba(var(--bs-info-rgb), var(--bs-bg-opacity));
+}
